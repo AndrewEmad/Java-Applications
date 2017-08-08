@@ -23,19 +23,19 @@ public class RegistrantController {
         boolean b5 = mail.matches(format3);
 
         if (b1 == false) {
-            return 3;
-        }
-        if (b2 == false) {
             return 4;
         }
-        if (b3 == false) {
+        if (b2 == false) {
             return 5;
         }
-        if (b4 == false) {
+        if (b3 == false) {
             return 6;
         }
-        if (b5 == false) {
+        if (b4 == false) {
             return 7;
+        }
+        if (b5 == false) {
+            return 8;
         }
 
         return -1;
