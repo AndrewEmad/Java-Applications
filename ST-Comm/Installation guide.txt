@@ -1,0 +1,8 @@
+1- Open 'ST-Comm' => 'JDBC' => 'sqljdbc_6.0' => 'enu' => 'auth' => 'x64'
+2- Copy the .dll file to 'C:\Windows\System32'
+3- Open 'ST-Comm' folder from NetBeans Java IDE
+4- Open 'SQLConnection' class, and in the function getConnection():
+	- change dbURL value to "jdbc:sqlserver://*****;databaseName=ST-Comm;integratedSecurity=true;"
+	- replace the ***** with your server name you use to connect to Microsoft SQL-Server
+5- Run the query found in 'DB_Initialization.sql' in Mirosoft SQL-Server
+6- ENJOY!!
